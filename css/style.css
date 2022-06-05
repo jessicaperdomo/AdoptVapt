@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    font-family:'Nunito';
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-lista{
+    background-color: #425B7C;
+    padding:2%;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-nav{
+    color:#F2F2F2;
+    font-family: 'Nunito';
+}
+
+.item-nav2{
+    font-family:'Nunito';
+    font-weight: 200;
+    font-size: 15px;
+
+    color:#F2F2F2;
+
+    margin-top: 10px;
+}
+
+.imagem-inicial{
+    background: url("../assets/ImagemFundo.png");
+    opacity : 0.9;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-footer{
+    background-color: #425B7C;
+    padding: 2%;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-unoeste{
+    width: 40px;
+    height: 40px;
+
+    margin-top: 30px;
+    border-radius: 15%;
+}
+
+.animais-disp{
+    background-image:linear-gradient(#D9A06B, #ad5f4d) ;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo-animais-disponiveis{
+    font-family:'Nunito';
+    font-weight: 800;
+    font-size: 30px;
+
+    color:#302927;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.coluna1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.item-animais-disp{
+    background-color: #F2F2F2;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 15px;
+
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.item-animais-disp:hover{
+    border: 1px solid #8C4637;
+}
+
+.foto-animal{
+    width: 500px;
+    height: 500px;
+
+    border-radius: 15px;
+}
+
+.font-animais2{
+    color:#302927;
+
+    font-family:'Nunito';
+    font-weight: 800;
+    font-size: 30px;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.font-animais{
+    color:#302927;
+
+    font-family:'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.btn-adote{
+    margin-bottom: 30px;
+
+    background-color: #8C4637;
+    color: #F2F2F2;
+
+    font-family:'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 15px;
+
+    padding:15px;
+}
+
+.btn-adote:hover{
+    background-color:#302927;
+}
+
+.box{
+    width: 70%;
+    height: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #CCC;
+    background-color: #F8F8F8;
+    resize: none;
+
+    margin-bottom: 15px;
+}
+    
+.bg{
+    background-image:linear-gradient(#D9A06B, #ad5f4d);
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    min-height: 100vh;
+
+   background-image:linear-gradient(#D9A06B, #ad5f4d);
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.caixa{
+    width: 100%;
+    height: 90%;
+
+    background-image: linear-gradient(#D9A06B, #ad5f4d);
+
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.divfundo{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divfundo2{
+    background-color: #F2F2F2;
+
+    width: 50%;
+    height: 70%;
+
+    border-radius: 15px;
+
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.titulo{
+   font-size: 30px;
+   font-weight: bold;
+
+   margin-bottom: 15px;
+}
+
+.margem{
+    margin-bottom: 20px;
+}
+
+#principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(#D9A06B, #ad5f4d) ;
+    text-align: center;
+
+    width: 100%; 
+    height: 90%;
+
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%; 
+    height: 90%;
+}
+
+#objetivos{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 80%; height: 20em;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.patas-ei{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.org-pat{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#criadores{
+
+    font-size: 20px;
+    width: 50%; height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+#titulo1{
+
+    font-size: 40px;
+    font-family:'Nunito';
+    font-weight: 200;
+    font-weight: bold;
+
+    color: #161312;
+    margin-top: 10px;
+}
+
+.titulo2{
+    font-size: 30px;
+    font-family:'Nunito';
+    font-weight: 200;
+}
+
+#textos{
+    text-align: justify;
+    font-size: 20px;
+    font-family:'Nunito';
+    font-weight: 200;
+
+    margin-top: 10px;
+}
+
+#texto2{
+    font-size: 20px;
+    font-family:'Nunito';
+    font-weight: 800;
+
+    margin-top: 10px;
+}
+
+#linha-v{
+    height: 300px;
+    border-right: 1px solid #302927;
+    margin: 10px;
+}
+
+#port{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alinhamento{
+
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotos{
+
+    width:125px; height: 125px;
+    margin: 10px;
+    border: 3px solid #302927;
+    opacity: 100%;
+}
+
+.borda{
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    opacity: 85%;
+}
+
+.borda:hover{
+
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    opacity: 100%;
+
+}
+
+.patinha{
+    width: 3%; height: 3%;
+    transform: rotate(180deg);
+    margin: 10px;
+}
+
+#patas{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alinhadiv{
+
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; height: 20em;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+
+}
+        
+.back{
+    background-image:linear-gradient(#D9A06B, #ad5f4d) ;
+}
+        
+textarea{
+    width: 90%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.divfundo{
+    width: 50%;
+    height: 90%;
+    background: #f2f2f2;
+} 
+
+.beca-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(#D9A06B, #ad5f4d) ;
+}
+
+.sobre-beca{
+    background-color: #F2F2F2;
+    border: 0.01px solid #302927;
+    border-radius: 15px;
+
+    width: 80%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.org-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos-dog-cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+.font-animais3{
+    color:#302927;
+
+    font-family:'Nunito';
+    font-weight: 900;
+    font-size: 18px;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.font-animais4{
+    color:#161312;
+
+    font-family:'Nunito';
+    font-weight: 900;
+    font-size: 35px;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.font-animais5{
+    color:#161312;
+
+    font-family:'Nunito';
+    font-weight: 900;
+    font-size: 35px;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.img-sobre{
+    border-radius: 16px;
+
+    width: 50%;
+    height: 100%;
+}
+
+.pata-org{
+    width: 2%;
+    height: 2%;
+}
+
+.dec-pata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    size: 20px
+}
+
+.pgSobre{
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5%;
+    border: 1px solid #3d3330;
+}
+
+.imgPort{
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+
+    width:120px; height: 120px;
+    margin: 10px;
+    border: 3px solid #302927;
+    opacity: 100%;
+}
+
+.itemSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width:800px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+.tit-sobre{
+    font-family:'Nunito';
+    font-weight: 800;
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.tit-sobre1{
+    font-family:'Nunito';
+    font-weight: 200;
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.pata-sobre{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+
+    margin-top: 20px;
+}
